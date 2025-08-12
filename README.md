@@ -26,7 +26,7 @@ Download the dataset and extract the file `records.csv` into the root of your pr
 
 Use either the provided `etl_script.py` or a Jupyter notebook to perform the following:
 
-- Load `records.csv` using `pandas`
+- Load `records.csv` using `pandas` (not a must you can choose other tools)
 - Remove rows with missing `artist_name`, `release_name`, or `track_count`
 - Parse the `release_date` into a new column called `release_year`
 - Clean and normalize the `genres` column:
